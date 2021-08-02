@@ -70,6 +70,8 @@ namespace BundleManager
             for (int i = 0; shader != null && i < shader.children.Count; ++i)
             {
                 BundleData shaderChild = BundleDataManager.GetBundleData(shader.children[i]);
+                if (shaderChild.size <= 0) continue;
+
                 BundleState childState = BundleDataManager.GetBundleState(shader.children[i]);
                 bool result = BundleBuildHelper.BuildShaderBundle(shaderChild, childState);
                 if (!result)

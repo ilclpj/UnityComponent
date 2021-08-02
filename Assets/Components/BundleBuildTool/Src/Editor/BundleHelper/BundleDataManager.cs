@@ -200,7 +200,7 @@ namespace BundleManager
         }
         public static string GetIndexBundleName(int index)
         {
-            return "Index_" + index.ToString();
+            return "Script_" + index.ToString();
         }
         public static List<object> GetIndexBundleList(int index)
         {
@@ -211,6 +211,8 @@ namespace BundleManager
             {
                 return list;
             }
+
+            list.Add(bundleData);
             for (int i = 0; i < bundleData.children.Count; ++i)
             {
                 BundleData child = GetBundleData(bundleData.children[i]);
@@ -221,6 +223,7 @@ namespace BundleManager
             }
             return list;
         }
+
         public static string GenBundleNameByType(BundleType type)
         {
             if (!m_typeCount.ContainsKey(type))

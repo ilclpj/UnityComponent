@@ -81,7 +81,7 @@ namespace BundleManager
                 suffix = BundleSuffix;
             }
 
-            return string.Format("{0}/{1}.{2}", InterpretedOutputPath, bundleName, suffix);
+            return string.Format("{0}/{1}{2}", InterpretedOutputPath, bundleName, suffix);
         }
         public static string FormatPublishPath(string assetPath)
         {

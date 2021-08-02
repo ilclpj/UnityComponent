@@ -1,0 +1,83 @@
+[
+    
+    {
+        "name" : "Shader",        
+        "parent" : "",        
+        "type" : 0,        
+        "loadState" : 2,        
+        "size" : 0,        
+        "includs" : 
+        [
+            
+        ],        
+        "children" : 
+        [
+            "Shader_0"
+        ]
+    },    
+    
+    {
+        "name" : "Shader_0",        
+        "parent" : "Shader",        
+        "type" : 2,        
+        "loadState" : 0,        
+        "size" : 0,        
+        "includs" : 
+        [
+            
+        ],        
+        "children" : 
+        [
+            
+        ]
+    },    
+    
+    {
+        "name" : "Script",        
+        "parent" : "",        
+        "type" : 0,        
+        "loadState" : 2,        
+        "size" : 0,        
+        "includs" : 
+        [
+            
+        ],        
+        "children" : 
+        [
+            "Script_0"
+        ]
+    },    
+    
+    {
+        "name" : "Script_0",        
+        "parent" : "Script",        
+        "type" : 1,        
+        "loadState" : 0,        
+        "size" : 0,        
+        "includs" : 
+        [
+            
+        ],        
+        "children" : 
+        [
+            "Script_1"
+        ]
+    },    
+    
+    {
+        "name" : "Script_1",        
+        "parent" : "Script_0",        
+        "type" : 1,        
+        "loadState" : 0,        
+        "size" : 583,        
+        "includs" : 
+        [
+            "Assets/Scripts/Test.cs",            
+            "Assets/Scripts/Test2.cs"
+        ],        
+        "children" : 
+        [
+            
+        ]
+    }
+]

@@ -41,6 +41,7 @@ namespace BundleManager
         {
             get
             {
+
                 if (m_importDatas == null)
                 {
                     m_importDatas = EditorTool.LoadJsonData<List<BundleImportData>>(BuildConfig.BundleImportDataPath);

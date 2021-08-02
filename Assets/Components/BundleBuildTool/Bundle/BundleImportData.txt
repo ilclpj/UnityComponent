@@ -1,0 +1,44 @@
+[
+    
+    {
+        "RootPath" : "Scripts",        
+        "FileNameMatch" : "*.cs",        
+        "Index" : 0,        
+        "TotalCount" : 0,        
+        "Type" : 1,        
+        "LoadState" : 0,        
+        "Publish" : true,        
+        "LimitCount" : -1,        
+        "LimitKBSize" : -1,        
+        "PushDependice" : false,        
+        "SkipData" : false
+    },    
+    
+    {
+        "RootPath" : "Packages",        
+        "FileNameMatch" : "*.png",        
+        "Index" : 1,        
+        "TotalCount" : 0,        
+        "Type" : 4,        
+        "LoadState" : 2,        
+        "Publish" : true,        
+        "LimitCount" : -1,        
+        "LimitKBSize" : -1,        
+        "PushDependice" : false,        
+        "SkipData" : false
+    },    
+    
+    {
+        "RootPath" : "data",        
+        "FileNameMatch" : "*.cs",        
+        "Index" : 2,        
+        "TotalCount" : 0,        
+        "Type" : 0,        
+        "LoadState" : 2,        
+        "Publish" : false,        
+        "LimitCount" : -1,        
+        "LimitKBSize" : -1,        
+        "PushDependice" : false,        
+        "SkipData" : false
+    }
+]

@@ -59,10 +59,7 @@ namespace BundleManager
 
             m_editorData.CopyData(importData);
             m_index = importData.Index;
-            if (m_bundleTable != null)
-            {
-                m_bundleTable.RefreshData(BundleDataManager.GetIndexBundleList(importData.Index));
-            }
+            m_bundleTable?.RefreshData(BundleDataManager.GetIndexBundleList(importData.Index));
         }
         public void OnBundleSelected(object selected, int col)
         {
